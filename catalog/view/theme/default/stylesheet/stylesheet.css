@@ -2,6 +2,7 @@ html {
 	overflow-y: scroll;
 	margin: 0;
 	padding: 0;
+	background: #ececec;
 }
 body {
 	background-color: #FFF;
