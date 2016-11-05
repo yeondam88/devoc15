@@ -248,26 +248,25 @@ label {
 }
 #header #search {
 	position: absolute;
-	top: 15px;
+	top: 26px;
 	right: 0px;
-	width: 298px;
+	width: 250px;
 	z-index: 15;
 }
 #header .button-search {
 	position: absolute;
-	left: 0px;
-	background: url('../image/button-search.png') center center no-repeat;
+	right: 0px;
+	background: url('../image/icon-search.svg');
 	width: 28px;
-	height: 24px;
-	border-right: 1px solid #CCCCCC;
+	height: 28px;
 	cursor: pointer;
 }
 #header #search input {
 	background: #FFF;
-	padding: 1px 1px 1px 33px;
-	width: 262px;
-	height: 21px;
-	border: 1px solid #CCCCCC;
+	padding: 0 0 0 10px;
+	width: 240px;
+	height: 30px;
+	border: 1px solid #d2dbd9;
 }
 #header #welcome {
 	position: absolute;
