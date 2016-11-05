@@ -57,7 +57,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <div id="container">
 <div id="header">
   <?php if ($logo) { ?>
-  <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+  <div id="logo"><a href="<?php echo $home; ?>"><img src="image/moonart-logo.svg" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
   <?php echo $language; ?>
   <?php echo $currency; ?>
