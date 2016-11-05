@@ -260,6 +260,7 @@ label {
 	width: 28px;
 	height: 28px;
 	cursor: pointer;
+	padding: 1px 1px 0 0;
 }
 #header #search input {
 	background: #FFF;
@@ -490,7 +491,6 @@ a.button, input.button {
 	cursor: pointer;
 	color: #FFF;
 	line-height: 12px;
-	sfont-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
 	background: url('../image/button.png') repeat-x;
 	-webkit-box-shadow: 0px 2px 2px #DDD;
@@ -543,7 +543,6 @@ a.button:hover, input.button:hover {
 	background: #FFF url('../image/tab.png') repeat-x;
 	padding: 7px 15px 6px 15px;
 	float: left;
-	font-family: 'Rajdhani', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
@@ -572,7 +571,6 @@ a.button:hover, input.button:hover {
 .box .box-heading {
 	border: 1px solid #DBDEE1;
 	padding: 8px 10px 7px 10px;
-	font-family: 'Rajdhani', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 14px;
@@ -1570,3 +1568,28 @@ ul.box-filter > li ul {
 #footer-container {width:100%; background:#1ecaa7; height:auto; display:block;}
 .sns li {text-align:center; color:#1ecaa7; display:inline-block; float:right !important; margin:0 0 0 10px; width:38px !important; height:30px; background:#fff; border-radius:25px; padding-top:6px; font-size:20px;}
 .sns li:hover {background:#313131;cursor: pointer;}
+
+
+::-webkit-input-placeholder {
+	font-family: 'Rajdhani', sans-serif;
+	font-size:15px;
+	color:#bbbbbb;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-family: 'Rajdhani', sans-serif;
+	font-size:15px;
+	color:#bbbbbb;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-family: 'Rajdhani', sans-serif;
+	font-size:15px;
+	color:#bbbbbb;
+}
+
+:-ms-input-placeholder {
+	font-family: 'Rajdhani', sans-serif;
+	font-size:15px;
+	color:#bbbbbb;
+}
