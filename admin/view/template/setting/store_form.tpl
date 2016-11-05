@@ -375,20 +375,6 @@
         <div id="tab-image">
           <table class="form">
             <tr>
-              <td><?php echo $entry_logo; ?></td>
-              <td><div class="image"><img src="<?php echo $logo; ?>" alt="" id="thumb-logo" />
-                  <input type="hidden" name="config_logo" value="<?php echo $config_logo; ?>" id="logo" />
-                  <br />
-                  <a onclick="image_upload('logo', 'thumb-logo');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb-logo').attr('src', '<?php echo $no_image; ?>'); $('#logo').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
-            </tr>
-            <tr>
-              <td><?php echo $entry_icon; ?></td>
-              <td><div class="image"><img src="<?php echo $icon; ?>" alt="" id="thumb-icon" />
-                  <input type="hidden" name="config_icon" value="<?php echo $config_icon; ?>" id="icon" />
-                  <br />
-                  <a onclick="image_upload('icon', 'thumb-icon');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb-icon').attr('src', '<?php echo $no_image; ?>'); $('#icon').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
-            </tr>
-            <tr>
               <td><span class="required">*</span> <?php echo $entry_image_category; ?></td>
               <td><input type="text" name="config_image_category_width" value="<?php echo $config_image_category_width; ?>" size="3" />
                 x
