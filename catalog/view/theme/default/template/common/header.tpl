@@ -51,16 +51,17 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <?php echo $google_analytics; ?>
 </head>
 <body>
-<div id="globalnav"><div class="links"><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a>
-<a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
-</div></div>
-<div id="container">
-<div id="header">
-  <?php if ($logo) { ?>
-  <div id="logo"><a href="<?php echo $home; ?>"><img src="image/moonart-logo.svg" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
-  <?php } ?>
+<div id="globalnav"><div class="links">
+<a href="%s">SIGN IN</a><a href="%s">SIGN UP</a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
+</div>
+<div id="currencylanguage">
   <?php echo $language; ?>
   <?php echo $currency; ?>
+</div>
+</div>
+<div id="container">
+<div id="header">
+  <div id="logo"><a href="<?php echo $home; ?>"><img src="image/moonart-logo.svg" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php echo $cart; ?>
   <div id="search">
     <div class="button-search"></div>
@@ -74,6 +75,11 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
     <?php } ?>
   </div>
 </div>
+  <div id="wishncart">
+    <a class="icon-cart" href="<?php echo $shopping_cart; ?>" id="wishlist-total"><?php echo $text_shopping_cart; ?></a>
+    <a class="icon-mygallery" href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a>
+
+  </div>
 <?php if ($categories) { ?>
 <div id="menu">
   <ul>
